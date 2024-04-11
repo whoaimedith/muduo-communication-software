@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>CustomerService.png</file>
+    </qresource>
+</RCC>
