@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/icon">
-        <file>CustomerService.png</file>
+        <file>Resouces/icon/CustomerService.png</file>
     </qresource>
+    <qresource prefix="/"/>
 </RCC>

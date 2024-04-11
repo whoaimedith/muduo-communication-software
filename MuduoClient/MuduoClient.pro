@@ -54,24 +54,15 @@ SOURCES += \
     ../MyMuduo/Tcp/TcpConnection.cc \
     ../MyMuduo/Tcp/TcpServer.cc \
     Application/main.cpp \
-    Global/global.cpp \
     MuduoApp/muduoclient.cpp \
     Ui/addfrienddialog.cpp \
     Ui/chatitem.cpp \
-    Ui/chatwidget.cpp \
     Ui/customitemwidget.cpp \
-    Ui/dialog.cpp \
-    Ui/mainchatwidget.cpp \
-    Ui/mainwindow.cpp \
-    Ui/my_chat_ui.cpp \
     Ui/my_chat_ui2.cpp \
-    Ui/my_chat_window.cpp \
     Ui/peerchat.cpp \
     Ui/pictureitem.cpp \
-    Ui/qnchatmessage.cpp \
     Ui/registerandloginwidget.cpp \
     Ui/registerdialog.cpp \
-    Ui/registerwidget.cpp \
     Ui/userinfo.cpp \
     Ui/userinformation.cpp
 
@@ -133,51 +124,32 @@ HEADERS += \
     DataStruct/fixqueue.h \
     DataStruct/header.h \
     DataStruct/lib.h \
-    Global/global.h \
     Global/header.h \
     Global/lib.h \
     MuduoApp/codec.h \
     MuduoApp/header.h \
     MuduoApp/lib.h \
     MuduoApp/muduoclient.h \
-    Ui/ChatItemDelegate.h \
     Ui/SmoothScrollListWidget.h \
     Ui/addfrienddialog.h \
-    Ui/chat_model.h \
     Ui/chatitem.h \
-    Ui/chatwidget.h \
     Ui/customitemwidget.h \
-    Ui/dialog.h \
     Ui/header.h \
     Ui/lib.h \
-    Ui/mainchatwidget.h \
-    Ui/mainwindow.h \
-    Ui/my_chat_ui.h \
     Ui/my_chat_ui2.h \
-    Ui/my_chat_window.h \
     Ui/peerchat.h \
     Ui/pictureitem.h \
-    Ui/qnchatmessage.h \
     Ui/registerandloginwidget.h \
     Ui/registerdialog.h \
-    Ui/registerwidget.h \
     Ui/userinfo.h \
     Ui/userinformation.h
 
 FORMS += \
     Ui/addfrienddialog.ui \
-    Ui/chatwidget.ui \
-    Ui/dialog.ui \
-    Ui/mainchatwidget.ui \
-    Ui/mainwindow.ui \
-    Ui/my_chat_ui.ui \
     Ui/my_chat_ui2.ui \
-    Ui/my_chat_window.ui \
     Ui/peerchat.ui \
     Ui/registerandloginwidget.ui \
-    Ui/mainwindow.ui \
     Ui/registerdialog.ui \
-    Ui/registerwidget.ui \
     Ui/userinformation.ui
 
 # Default rules for deployment.

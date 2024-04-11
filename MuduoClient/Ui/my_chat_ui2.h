@@ -5,7 +5,6 @@
 #include <QListView>
 #include <QStandardItem>
 #include <QListWidget>
-#include "ChatItemDelegate.h"
 #include "userinformation.h"
 #include "addfrienddialog.h"
 #include "customitemwidget.h"

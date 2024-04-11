@@ -298,7 +298,7 @@ std::cout<<__FILE__<<"  :" <<__LINE__<<std::endl<<std::flush;
 std::cout<<__FILE__<<"  :" <<__LINE__<<std::endl<<std::flush;
 
     m_nMutexForNeedToProcessUsers.lock();
-    std::cout<<__FILE__<<"  :" <<__LINE__<<std::endl<<std::fSlush;
+    std::cout<<__FILE__<<"  :" <<__LINE__<<std::endl<<std::flush;
     m_arrNeedToProcessUsers.DeleteByValue(QString::fromStdString(m_chattingFriendId).toUtf8());
     std::cout<<__FILE__<<"  :" <<__LINE__<<std::endl<<std::flush;
     m_nMutexForNeedToProcessUsers.unlock();

@@ -60,11 +60,9 @@ SOURCES += \
         Application/main.cpp \
         Global/global.cpp \
         #MuduoApp/fileserver.cpp \
-        MuduoApp/muduoclient.cpp \
         MuduoApp/muduocodec.cpp \
         MuduoApp/muduoserver.cpp \
-        MySqlAgent/mysqlagent.cpp \
-        MySqlAgent/mysqlconnector.cpp
+        MySqlAgent/mysqlagent.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -212,14 +210,12 @@ HEADERS += \
    # MuduoApp/fileserver.h \
     MuduoApp/header.h \
     MuduoApp/lib.h \
-    MuduoApp/muduoclient.h \
     MuduoApp/muduocodec.h \
     MuduoApp/muduoserver.h \
     MySqlAgent/ConnectionPool.h \
     MySqlAgent/header.h \
     MySqlAgent/lib.h \
-    MySqlAgent/mysqlagent.h \
-    MySqlAgent/mysqlconnector.h
+    MySqlAgent/mysqlagent.h
 
 RESOURCES += \
     res.qrc
